@@ -6,32 +6,22 @@ const skills = [
     languages: [
       {
         id: 1,
-        title: "Java",
+        title: "Laravel PHP",
         css: "java",
       },
       {
         id: 2,
-        title: "Groovy",
+        title: "Node.js",
         css: "groovy",
       },
       {
         id: 3,
-        title: "Apache Solr",
-        css: "solr",
-      },
-      {
-        id: 4,
-        title: "Spring Data",
-        css: "spring",
-      },
-      {
-        id: 5,
         title: "Docker",
         css: "docker",
       },
     ],
     description:
-      "I develop web apps using JVM languages and work closely with NoSQL search engines like Apache Solr",
+      "Currently, working with Laravel PHP but have experience with Node.js and interested in learning GoLang.",
   },
   {
     id: 2,
@@ -55,36 +45,12 @@ const skills = [
       },
       {
         id: 4,
-        title: "Bulma",
+        title: "Tailwind CSS",
         css: "bulma",
       },
     ],
     description:
-      "Even though Im a backend developer, I have passion for designing web apps and websites and Im into such things as JavaScript and Vue.js",
-  },
-  {
-    id: 3,
-    title: "Machine Learning",
-    image: "ai_blue.png",
-    languages: [
-      {
-        id: 1,
-        title: "Tensorflow",
-        css: "tensorflow",
-      },
-      {
-        id: 2,
-        title: "PyTorch",
-        css: "pytorch",
-      },
-      {
-        id: 3,
-        title: "OpenCV",
-        css: "opencv",
-      },
-    ],
-    description:
-      "I use deep learning to solve problems in the real world. I use Tensorflow and PyTorch to build neural networks and use OpenCV to process images",
+      "I enjoy working with Vue.js and Tailwind CSS creating proof-of-concepts (PoC) on the fly.",
   },
 ];
 

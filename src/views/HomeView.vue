@@ -1,24 +1,22 @@
 <template>
   <!-- Menu -->
-  <MenuVue :links="links">> # ~ / nikita<span class="prim">r</span></MenuVue>
-  <HeroSection id="hero" pic="header.png">
-    <template v-slot:welcome>Welcome!</template>
-    My name is <b>Nikita Rusetskii</b> and I'm a
+  <MenuVue :links="links">dev.<span class="prim">cjcanlas</span></MenuVue>
+  <HeroSection id="hero" pic="header.svg">
+    <template v-slot:welcome>Empowering Developers.</template>
+    Hi there! My name is <b>CJ Canlas</b> and I'm a
     <hi-word>software engineer</hi-word>. My passion is building
     <hi-word>web applications</hi-word> and
-    <hi-word>designing websites</hi-word> using modern frameworks. Also I'm
-    doing research in <hi-word>machine learning</hi-word> applied to renewable
-    energy
+    <hi-word>developing tools</hi-word> using modern frameworks.
     <template v-slot:buttons>
       <simple-button
         class="btn-primary text-white"
-        url="https://linkedin.com/in/xtenzq"
+        url="https://linkedin.com/in/devcjcanlas"
         icon="fab linkedin-in"
         >Hire me!</simple-button
       >
       <simple-button
         class="btn-outline-secondary"
-        url="mailto:rusetscky@outlook.com"
+        url="mailto:dev.cjcanlas@gmail.com"
         icon="fa-regular fa-file-lines"
         >Contact me</simple-button
       >
@@ -26,7 +24,7 @@
   </HeroSection>
   <SkillsGrid id="skills" :skills="skills" />
   <ExperienceTable id="edu-exp" :experience="experience" />
-  <AwardsGrid id="awards" :awards="awards" />
+  <!-- <AwardsGrid id="awards" :awards="awards" /> -->
   <ProjectsGrid id="projects" :projects="projects" />
   <FooterVue :links="socials" :copyright="copyright" />
 </template>
@@ -36,13 +34,13 @@ import FooterVue from "@/components/shared/AppFooter.vue";
 import HeroSection from "@/components/hero/HeroSection.vue";
 import SkillsGrid from "@/components/skills/SkillsGrid.vue";
 import ExperienceTable from "@/components/experience/ExperienceTable.vue";
-import AwardsGrid from "@/components/awards/AwardsGrid.vue";
+// import AwardsGrid from "@/components/awards/AwardsGrid.vue";
 import ProjectsGrid from "@/components/projects/ProjectsGrid.vue";
 
 // data to fill components
 import skills from "@/data/skills";
 import experience from "@/data/experience";
-import awards from "@/data/awards";
+// import awards from "@/data/awards";
 import projects from "@/data/projects";
 
 import SimpleButton from "@/components/reusable/SimpleButton.vue";
@@ -66,10 +64,10 @@ export default {
           name: "experience",
           url: "#edu-exp",
         },
-        {
-          name: "awards",
-          url: "#awards",
-        },
+        // {
+        //   name: "awards",
+        //   url: "#awards",
+        // },
         {
           name: "projects",
           url: "#projects",
@@ -77,21 +75,21 @@ export default {
       ],
       skills,
       experience,
-      awards,
+      // awards,
       projects,
       socials: [
         {
           id: 1,
           icon: "fab linkedin-in",
-          url: "https://linkedin.com/in/xtenzq",
+          url: "https://linkedin.com/in/devcjcanlas",
         },
         {
           id: 2,
           icon: "fab github",
-          url: "https://github.com/xtenzq",
+          url: "https://github.com/cjcanlas01",
         },
       ],
-      copyright: "2022 Nikita Rusetskii",
+      copyright: "2023 CJ Canlas",
     };
   },
   components: {
@@ -100,7 +98,7 @@ export default {
     HeroSection,
     SkillsGrid,
     ExperienceTable,
-    AwardsGrid,
+    // AwardsGrid,
     ProjectsGrid,
     SimpleButton,
     HiWord,

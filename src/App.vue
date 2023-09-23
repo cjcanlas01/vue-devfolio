@@ -33,46 +33,46 @@ import { useMeta } from "vue-meta";
 export default {
   data: () => {
     return {
-      webTitle: "Nikita RUSETSKII - Backend Developer",
+      webTitle: "dev.cjcanlas",
     };
   },
   setup() {
     useMeta({
-      title: "Nikita RUSETSKII - Backend Developer",
+      title: "dev.cjcanlas",
       description: "Just a guy with passion for coding",
       htmlAttrs: {
         lang: "en",
         amp: true,
       },
       twitter: {
-        title: "Nikita RUSETSKII - Backend Developer",
+        title: "dev.cjcanlas",
         description: "Just a guy with passion for coding",
         card: "summary_large_image",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
+        image: "https://rusetskii.dev" + require(`@/assets/images/preview.png`),
       },
       og: {
-        title: "Nikita RUSETSKII - Backend Developer",
+        title: "dev.cjcanlas",
         description: "Just a guy with passion for coding",
         type: "website",
         url: "https://rusetskii.dev/",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
-        site_name: "Nikita RUSETSKII - Backend Developer",
+        image: "https://rusetskii.dev" + require(`@/assets/images/preview.png`),
+        site_name: "dev.cjcanlas",
       },
       meta: [
         {
           name: "keywords",
           content:
-            "software developer, software engineer, backend developer, fullstack developer, machine learning engineer, AI researcher, developer portfolio",
+            "software developer, software engineer, backend developer, fullstack developer javascript developer",
         },
         {
           name: "author",
-          content: "Nikita Rusetskii",
+          content: "CJ Canlas",
         },
       ],
       link: [
         {
           rel: "icon",
-          href: require(`@/assets/images/favicon.png`),
+          href: require(`@/assets/images/favicon.jpg`),
         },
       ],
     });

@@ -1,5 +1,5 @@
 <template>
-  <div class="col-sm-12 col-md-4 mb-3">
+  <div class="col-sm-12 col-md-6 mb-3">
     <div class="text-center">
       <img
         class="mb-3"
