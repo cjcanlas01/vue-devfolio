@@ -2,7 +2,7 @@
   <!-- Menu -->
   <MenuVue :links="links">dev.<span class="prim">cjcanlas</span></MenuVue>
   <HeroSection id="hero" pic="header.svg">
-    <template v-slot:welcome>Empowering Developers.</template>
+    <template v-slot:welcome>Empowering Developers</template>
     Hi there! My name is <b>CJ Canlas</b> and I'm a
     <hi-word>software engineer</hi-word>. My passion is building
     <hi-word>web applications</hi-word> and
