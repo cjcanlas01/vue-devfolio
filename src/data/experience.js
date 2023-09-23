@@ -1,7 +1,7 @@
 const experience = [
   {
     id: 1,
-    date: "June 2023 - Present",
+    date: "Jun 2023 - Present",
     position: "Software Engineer",
     company: "phCollab",
     // TODO: update url when available

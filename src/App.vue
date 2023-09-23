@@ -48,14 +48,18 @@ export default {
         title: "dev.cjcanlas",
         description: "Just a guy with passion for coding",
         card: "summary_large_image",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.png`),
+        image:
+          "https://devcjcanlas.vercel.app" +
+          require(`@/assets/images/preview.png`),
       },
       og: {
         title: "dev.cjcanlas",
         description: "Just a guy with passion for coding",
         type: "website",
-        url: "https://rusetskii.dev/",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.png`),
+        url: "https://devcjcanlas.vercel.app/",
+        image:
+          "https://devcjcanlas.vercel.app" +
+          require(`@/assets/images/preview.png`),
         site_name: "dev.cjcanlas",
       },
       meta: [
