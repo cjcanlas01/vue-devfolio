@@ -22,6 +22,7 @@
 ## 🚀 To-do
 - [ ] Add blog;
 - [ ] Enable AOS animations.
+- [ ] Thank Nikita
 
 ## ©️ Reference
 - Pics are from **[Shutterstock](https://www.shutterstock.com/)**.
